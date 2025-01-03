@@ -1,0 +1,91 @@
+body{
+  background-color: white;
+  height: 1600px;
+}
+p{
+  margin: 0;
+  font-family: "Roboto", serif;
+}
+
+.profile{
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: 60px;
+}
+
+.logo{
+  height: 40px;
+  margin-left: 30px;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 10;
+  border-bottom: 1px solid rgb(244, 239, 254);
+
+}
+
+.middle{
+  display: flex;
+  flex-direction: row;
+
+  flex: 1;
+  justify-content: space-between;
+}
+
+
+.message-icon, .bell-icon{
+  height: 24px;
+}
+
+.header-text{
+  margin-left: 150px;
+
+
+}
+
+.dashboard{
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.date{
+  font-size: 14px;
+  color: rgb(133, 132, 132);
+}
+
+
+
+.header-icons-middle{
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 20px;
+  
+}
+.right{
+  width: 250px;
+  justify-content: space-evenly ;
+  display: flex;
+  align-items: center;
+
+
+}
+
+.name{
+  font-size: 18px;
+}
+

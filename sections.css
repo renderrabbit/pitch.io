@@ -1,0 +1,199 @@
+.section-one{
+  background-color: rgb(244, 223, 255);
+  height: 250px;
+  width: 1400px;
+  position: absolute;
+  top: 150px;
+  left:240px;
+  margin-left: 42px;
+  display: flex;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.welcome-box{
+display: flex;
+justify-content: center;
+flex-direction: column;
+width: 650px;
+}
+
+.welcome-text{
+  font-size: 40px;
+  font-weight: bold;
+  padding: 20px;
+  padding-left: 30px;
+
+}
+
+.get-ready{
+  font-size: 18px;
+  padding: 20px;
+  line-height: 30px;
+  padding-left: 30px;
+
+}
+
+.Illustration{
+  width: 500px;
+  margin-top: -80px;
+  margin-right: 100px;
+}
+
+
+
+.section-two{
+
+  height: 250px;
+  width: 1400px;
+  position: absolute;
+  top: 410px;
+  left:240px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.overview{
+  color: gray;
+  font-size: 18px;
+  padding: 30px;
+  padding-left: 52px;
+}
+
+.blue{
+  background-color: #B3DAFF;
+}
+
+.pink{
+  background-color: #FC5D99;
+}
+.yellow{
+  background-color: #ffd559;
+}
+
+.purple{
+  background-color: #5542AC;
+}
+
+
+
+.blue, .pink , .purple , .yellow{
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+
+  
+}
+
+.colour-icon{
+  height: 42px;
+  margin-left: 30px;
+  margin-right: 30px;
+
+}
+
+.activity-grid{
+  margin-left: 30px;
+  display: grid;
+  grid-template-columns: 310px 310px 310px 310px;
+  grid-template-rows: 80px 80px 80px 80px;
+  column-gap: 30px;
+
+}
+
+
+
+.colour-text-box{
+  display: flex;
+  flex-direction: column;
+}
+
+.percentage{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+
+
+
+.section-three{
+  height: 500px;
+  width: 1400px;
+  position: absolute;
+  top: 610px;
+  left:240px;
+  margin-left: 42px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.preview-img{
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 5px;
+}
+
+.my-pitch{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(242, 242, 242);
+  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  transition: background-color 0.2s;
+}
+
+.my-pitch:hover{
+  background-color: #f1eeff;
+}
+
+.project-status{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+
+
+.edit-icon , .delete-icon{
+  height: 24px;
+  padding: 5px;
+}
+
+.pitch-text{
+  margin-left: -300px;
+}
+
+.title{
+  font-size: 20px;
+  color: rgb(30, 105, 202);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.project-description{
+  width: 800px;
+  line-height: 23px;
+}
+
+.view{
+  font-weight: 600;
+  color: green;
+}
+
+.view-private{
+  font-weight: 600;
+  color: rgb(0, 4, 128);
+}

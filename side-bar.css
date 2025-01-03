@@ -1,0 +1,75 @@
+.side-bar{
+  background-color: #f8f8f8cb;
+  position: fixed;
+  top: 80px;
+  bottom: 0px;
+  left: 0px;
+  width: 240px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  z-index: 20;
+
+
+
+
+}
+
+
+.add-icon{
+  height: 32px;
+
+}
+
+.add-button{
+  border: none;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  border: 1px solid #9d87fb;
+  margin-left: 30px;
+  margin-right: 10px;
+  margin-top: 10px;
+  transition: background-color 0.2s;
+}
+.add-button:hover{
+  background-color: #8064fb;
+  color: white;
+}
+
+.add-button:active{
+  background-color: #ac9bfa;
+}
+
+.create{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.nav-buttons{
+  background-color: #ffffff;
+  display: flex;
+  width: 200px;
+  height: 50px;
+  margin-top: 10px;
+  align-items: center;
+  padding-left: 30px;
+  border-radius: 10px;
+  transition: background-color 0.2s;
+}
+
+.nav-buttons:hover{
+  background-color: #ece8fc;
+}
+
+.nav-icons{
+  height: 24px;
+  margin-right: 15px;
+
+}
